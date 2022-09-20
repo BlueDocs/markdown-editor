@@ -14,7 +14,9 @@ export default defineConfig({
             formats: ['cjs', 'es'],
             fileName: format => (format === 'cjs' ? main : module).replace(/^dist\//, ''),
         },
-        rollupOptions: {},
+        rollupOptions: {
+            external: ['vue', 'vc-state'],
+        },
         minify: false,
     },
 });
