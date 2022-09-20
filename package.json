@@ -1,0 +1,29 @@
+{
+    "name": "@bluedocs/markdown-editor",
+    "version": "0.0.0",
+    "description": "Markdown 编辑器",
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "keywords": [
+        "md",
+        "markdown",
+        "editor",
+        "md-editor"
+    ],
+    "author": "Fansy <418536538@qq.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@fansy/eslint-config": "^1.0.0",
+        "@fansy/prettier-config": "^1.0.0",
+        "@types/node": "^18.7.18",
+        "@vitejs/plugin-vue": "^3.1.0",
+        "@vitejs/plugin-vue-jsx": "^2.0.1",
+        "vite": "^3.1.3",
+        "vite-plugin-dts": "^1.5.0",
+        "vue": "^3.2.39"
+    }
+}
